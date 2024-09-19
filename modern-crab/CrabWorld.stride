@@ -44,6 +44,16 @@ That is: create the initial objects and add them to the world.</javadoc>
                 <call expression="addObject(worm7,338,491)" expression-java="addObject(worm7, 338, 491)" enable="true"/>
                 <variable type="Lobster" type-java="Lobster" name="lobster" value="new Lobster()" value-java=" new Lobster()" enable="true"/>
                 <call expression="addObject(lobster,417,126)" expression-java="addObject(lobster, 417, 126)" enable="true"/>
+                <variable type="Frog" type-java="Frog" name="frog" value="new Frog()" value-java=" new Frog()" enable="true"/>
+                <call expression="addObject(frog,60,228)" expression-java="addObject(frog, 60, 228)" enable="true"/>
+                <variable type="Frog" type-java="Frog" name="frog2" value="new Frog()" value-java=" new Frog()" enable="true"/>
+                <call expression="addObject(frog2,406,405)" expression-java="addObject(frog2, 406, 405)" enable="true"/>
+                <variable type="Crab" type-java="Crab" name="crab2" value="new Crab()" value-java=" new Crab()" enable="true"/>
+                <call expression="addObject(crab2,267,71)" expression-java="addObject(crab2, 267, 71)" enable="true"/>
+                <call expression="removeObject(frog2)" expression-java="removeObject(frog2)" enable="true"/>
+                <call expression="removeObject(crab)" expression-java="removeObject(crab)" enable="true"/>
+                <call expression="crab2.setLocation(259,390)" expression-java="crab2.setLocation(259, 390)" enable="true"/>
+                <call expression="lobster.setLocation(376,112)" expression-java="lobster.setLocation(376, 112)" enable="true"/>
             </body>
         </method>
     </methods>

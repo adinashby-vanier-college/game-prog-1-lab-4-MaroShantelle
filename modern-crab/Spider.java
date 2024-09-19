@@ -6,19 +6,11 @@ import greenfoot.*;
 /**
  * 
  */
-public class Lobster extends Actor
+public class Spider extends Actor
 {
 
     /**
-     * 
-     */
-    public Lobster()
-    {
-        turn(Greenfoot.getRandomNumber(359));
-    }
-
-    /**
-     * Act - do whatever the Lobster wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - do whatever the Spider wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {

@@ -26,23 +26,33 @@ public class CrabWorld extends World
      */
     private void prepare()
     {
-        Crab crab =  new Crab();
+        Crab crab =  new  Crab();
         addObject(crab, 180, 334);
-        Worm worm =  new Worm();
+        Worm worm =  new  Worm();
         addObject(worm, 69, 60);
-        Worm worm2 =  new Worm();
+        Worm worm2 =  new  Worm();
         addObject(worm2, 249, 146);
-        Worm worm3 =  new Worm();
+        Worm worm3 =  new  Worm();
         addObject(worm3, 441, 23);
-        Worm worm4 =  new Worm();
+        Worm worm4 =  new  Worm();
         addObject(worm4, 532, 360);
-        Worm worm5 =  new Worm();
+        Worm worm5 =  new  Worm();
         addObject(worm5, 99, 468);
-        Worm worm6 =  new Worm();
+        Worm worm6 =  new  Worm();
         addObject(worm6, 405, 252);
-        Worm worm7 =  new Worm();
+        Worm worm7 =  new  Worm();
         addObject(worm7, 338, 491);
-        Lobster lobster =  new Lobster();
+        Lobster lobster =  new  Lobster();
         addObject(lobster, 417, 126);
+        Frog frog =  new  Frog();
+        addObject(frog, 60, 228);
+        Frog frog2 =  new  Frog();
+        addObject(frog2, 406, 405);
+        Crab crab2 =  new  Crab();
+        addObject(crab2, 267, 71);
+        removeObject(frog2);
+        removeObject(crab);
+        crab2.setLocation(259, 390);
+        lobster.setLocation(376, 112);
     }
 }
